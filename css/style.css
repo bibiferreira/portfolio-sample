@@ -81,19 +81,7 @@ header {
 }
 
 
-@media only screen and (max-width: 600px) {
-  .logo {
-    font-size: 18px;
-  }
 
-  .navbar a {
-    padding: 5px 11px;
-  }
-
-  h2 {
-    font-size: 4rem;
-  }
-}
 
 /* BANNER SECTION */
 .banner {
@@ -309,4 +297,22 @@ textarea {
 
 [type="submit"]:hover {
   background-color: #5f5f64;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    font-size: 18px;
+  }
+
+  header {
+    display: block;
+  }
+
+  .navbar a {
+    padding: 4px 8px;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
 }
